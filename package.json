@@ -1,0 +1,23 @@
+{
+  "name": "vitalsigns-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalsignapp/vitalsigns-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitalsignapp/vitalsigns-cypress/issues"
+  },
+  "homepage": "https://github.com/vitalsignapp/vitalsigns-cypress#readme",
+  "devDependencies": {
+    "cypress": "^4.4.0",
+    "cypress-cucumber-preprocessor": "^2.3.0"
+  }
+}
