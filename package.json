@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vitalsigns": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
   "homepage": "https://github.com/vitalsignapp/vitalsigns-cypress#readme",
   "devDependencies": {
     "cypress": "^4.4.0",
-    "cypress-cucumber-preprocessor": "^2.3.0"
+    "cypress-cucumber-preprocessor": "^2.3.0",
+    "cypress-xpath": "^1.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
